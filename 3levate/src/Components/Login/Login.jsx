@@ -1,0 +1,18 @@
+import React from 'react'
+import './Login.css'
+
+export function Login () {
+  return (
+    <>
+      <h1>¡Hola!</h1>
+      <h3>Bienvenido de nuevo</h3>
+      <form>
+        <label>Nombre</label>
+        <input type='text' />
+        <label>Contraseña</label>
+        <input type='password' />
+        <button type='submit'>Entrar</button>
+      </form>
+    </>
+  )
+}
